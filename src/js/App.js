@@ -50,6 +50,11 @@ const App = () => {
               format: 'short',
             },
             title: 'Debt incurred over time.',
+            animation: {
+              duration: 1000,
+              easing: 'out',
+              startup: true,
+            }
           }}
           rootProps={{ 'data-testid': '2' }}
         />
